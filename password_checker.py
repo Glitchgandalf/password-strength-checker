@@ -55,6 +55,6 @@ if score <= 2 or len(password) < 8:
 elif score == 3:
     print("Medium")
 elif score == 4 and len(password) >= 12:
-    print("Strong 💪")
+    print("Strong")
 else:
     print("Fair, improve length or add more variety")
